@@ -102,3 +102,15 @@ body {
     font-size: 30px;
     margin-top: 15px;
 }
+
+.credits{
+    padding: 30px;
+    background-color: #020608;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.credits a{
+    color: lightblue;
+}
