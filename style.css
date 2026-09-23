@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2{
+    margin-bottom: 15px;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.parallax {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+
+
+.surface{
+    background-image: url("images/surface.jpg");
+}
+
+.card{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.content{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+
+    background-color: lightcyan;
+    color: darkslateblue;
+}
+
+.twilight-content{
+    background-color: #8bb8c9;
+    color: #163b4d;
+}
+
+.midnight-content{
+    background-color: #274c5e;
+    color: white;
+}
+
+.abyss-content{
+    background-color: #0d2633;
+    color: white;
+}
+
+.sunlight{
+    background-image: url("images/sunlight.jpg");
+}
+
+.twilight{
+    background-image: url("images/twilight.jpg");
+}
+
+.midnight{
+    background-image: url("images/midnight.jpg");
+}
+
+.abyss{
+    background-image: url("images/abyss.jpg");
+}
+
+.ending{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+
+    background-color: #050b0f;
+    color: white;
+}
+
+.down{
+    font-size: 30px;
+    margin-top: 15px;
+}
